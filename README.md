@@ -1,23 +1,7 @@
-# Advanced Job Recommendation System
+# Job Recommendation System Using Content-Based Filtering
 
 ## Overview
 The Job Recommendation System is designed to enhance the job search experience by leveraging content-based filtering techniques combined with Natural Language Processing (NLP) and the Word2Vec model. This approach ensures a personalized job matching process by analyzing user resumes and job postings to provide relevant job recommendations based on skills and location preferences. Additionally, the system suggests job opportunities aligned with users' aspirations to acquire new skills.
-
-## Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Data Acquisition Methods](#data-acquisition-methods)
-- [Key Methodologies and Technologies Used](#key-methodologies-and-technologies-used)
-- [System Design and Implementation Details](#system-design-and-implementation-details)
-- [Performance Optimization and Validation](#performance-optimization-and-validation)
-- [User-Centric Features](#user-centric-features)
-- [Results](#results)
-- [Future Enhancements](#future-enhancements)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Features
 - **Content-Based Filtering**: Matches jobs with users based on extracted skills and preferences.
