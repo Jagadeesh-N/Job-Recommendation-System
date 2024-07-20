@@ -1,7 +1,19 @@
 # Job Recommendation System Using Content-Based Filtering
 
-## Overview
-This project aims to enhance the job-seeking experience by developing a content-based job recommendation system. Utilizing advanced Natural Language Processing (NLP) techniques, the Word2Vec model, and cosine similarity, the system matches job postings with user skills, ensuring precise and relevant job recommendations.
+## Introduction
+The job market is highly competitive, making it challenging for job seekers to find positions that match their skills and career aspirations. This project addresses this challenge by developing a job recommendation system based on content-based filtering. By leveraging advanced Natural Language Processing (NLP) techniques, the Word2Vec model, and cosine similarity, the system provides precise and relevant job recommendations tailored to individual users.
+
+## Dataset
+The dataset for this project comprises job postings scraped from LinkedIn using Octoparse. It includes detailed information about job titles, descriptions, required skills, and other relevant attributes. Additionally, user resumes were processed to extract skills using NLP techniques. The final dataset used for training and evaluation contains over 3,684 job postings and hundreds of predefined user skills.
+
+## Tools and Libraries
+- **Python**: The primary programming language used for development.
+- **SpaCy**: An NLP library used for skill extraction from resumes.
+- **Word2Vec**: A model for converting textual data into vectors.
+- **Cosine Similarity**: An algorithm for measuring the similarity between user skills and job requirements.
+- **Octoparse**: A web scraping tool used for collecting job postings from LinkedIn.
+- **Pandas**: A library for data manipulation and analysis.
+- **Jupyter Notebooks**: For developing and documenting the project.
 
 ## Features
 - **Data Collection**: Scrapes job postings from LinkedIn using Octoparse.
@@ -15,7 +27,7 @@ This project aims to enhance the job-seeking experience by developing a content-
 - **code/**: Jupyter notebooks with step-by-step project development and experimentation.
 - **README.md**: Project documentation.
 
-## Installation
+## Usage
 1. Clone the repository:
    ```bash
    git clone https://github.com/Jagadeesh-N/Job-Recommendation-System-Using-Content-Based-Filtering.git
@@ -24,13 +36,10 @@ This project aims to enhance the job-seeking experience by developing a content-
    ```bash
    cd job-recommendation-system
    ```
-3. Install required packages:
-   ```bash
-   pip install -r requirements.txt
+3. Run the Script:
    ```
-
-## Usage
-
-
+   The model is in the ipynb file,execute the ipynb file using jupyter notebook or upload the file in google collaborator 
+   ```
+   
 ## Results
 The system achieved a precision rate of 82%, demonstrating its effectiveness in matching users with suitable job opportunities based on their skills.
