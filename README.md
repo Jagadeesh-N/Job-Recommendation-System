@@ -1,6 +1,3 @@
-Sure, I can help you create a comprehensive README file for your project. Below is a template based on the breakdown you provided:
-
-```markdown
 # Advanced Job Recommendation System
 
 ## Overview
