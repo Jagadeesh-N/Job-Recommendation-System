@@ -49,6 +49,18 @@ The Job Recommendation System is designed to enhance the job search experience b
 - **Feedback Loop**: Allow users to provide input on recommendations to continuously improve the algorithm.
 - **Scalability**: Ensure efficient handling of larger datasets and support multiple languages.
 
+## Requirements
+- Python 3.8 or higher
+- Libraries:
+  - numpy
+  - pandas
+  - scikit-learn
+  - spacy
+  - gensim
+  - octoparse
+  - pdfplumber
+  - beautifulsoup4
+
 ## Installation
 To install and run the Job Recommendation System locally, follow these steps:
 
