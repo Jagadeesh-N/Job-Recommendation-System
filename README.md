@@ -18,7 +18,7 @@ This project aims to enhance the job-seeking experience by developing a content-
 ## Installation
 1. Clone the repository:
    ```bash
-  git clone https://github.com/Jagadeesh-N/Job-Recommendation-System-Using-Content-Based-Filtering.git
+   git clone https://github.com/Jagadeesh-N/Job-Recommendation-System-Using-Content-Based-Filtering.git
    ```
 2. Navigate to the project directory:
    ```bash
