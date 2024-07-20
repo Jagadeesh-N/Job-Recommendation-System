@@ -12,13 +12,13 @@ This project aims to enhance the job-seeking experience by developing a content-
 
 ## Project Structure
 - **data/**: Contains datasets including scraped job postings and standardized data files.
-- **notebooks/**: Jupyter notebooks with step-by-step project development and experimentation.
+- **code/**: Jupyter notebooks with step-by-step project development and experimentation.
 - **README.md**: Project documentation.
 
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Jagadeesh-N/Job-Recommendation-System.git
+  git clone https://github.com/Jagadeesh-N/Job-Recommendation-System-Using-Content-Based-Filtering.git
    ```
 2. Navigate to the project directory:
    ```bash
